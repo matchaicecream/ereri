@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java.lang.Math;
+public class Ihatemyself{
+
+    public static void main(String[] args){
+
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        double number = reader.nextInt();
+        System.out.println("Enter another number: ");
+        double number2 = reader.nextInt();
+
+        System.out.println("This is how much I hate OSU: " + Math.pow(number,number2));
+        reader.close();
+
+    }
+}
