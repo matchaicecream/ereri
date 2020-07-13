@@ -1,0 +1,23 @@
+//Modify the HelloJack program so that it prompts the user for
+// his/her name, inputs the name, and outputs the message Hello, <name> 
+// where <name> is the name entered by the user.
+//Once you are done, make sure there are no errors, run the program a 
+// few times with different inputs to see whether it does what it should and, 
+// if not, fix the problems until you get it to work as expected.
+
+
+import java.util.Scanner;
+
+public class Bubble{
+    public static void main(String[] args)
+    {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("What is your name: ");
+        String name = reader.nextLine();
+
+        System.out.println("Hello, <" + name + ">");
+
+        reader.close();
+        
+    }
+}
