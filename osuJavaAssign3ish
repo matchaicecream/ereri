@@ -1,0 +1,49 @@
+<!--Your job is to learn enough about well-formed HTML 
+    to create a personal 
+    home page that includes the following elements: 
+    at least one heading, 
+    at least one paragraph, 
+    at least one image (e.g., a picture of yourself), 
+    at least one ordered or unordered list, 
+    at least one table (e.g., information about yourself 
+        that you are willing to share publicly), 
+    and at least one hyperlink to an external page. -->
+
+<html>
+    <head> Mousey Mouse </head>
+    <h1> Neopets is still alive </h1>
+    <h2> The Top 10 Best Things in the Universe</h2>
+    <ol>
+        <li> Ereri </li>
+        <li> Dessert </li>
+        <li> Chinese food</li>
+        <li> Snacks </li>
+        <li> Grocery Shopping </li>
+        <li> Daiharu</li>
+        <li> Laptops </li>
+        <li> Animal Crossing </li>
+        <li> Neopets </li>
+        <li> money </li>
+    </ol>
+    <body>
+        <p>This is the best website. Ereri is the best.</p>
+        <img src="https://static.gamespot.com/uploads/original/474/4740952/2915538-3306938612-Pikac.jpg" alt="alternatetext">
+
+    </body>
+    <table style="width:100%">
+    <tr> 
+        <th>Name</th>
+        <th>Favorite Color</th>
+        <th>Favorite Activity</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Muffins</td>
+        <td>Gold</td>
+        <td>chasing for money</td>
+        <td>9 years old</td>
+    </tr>
+    
+    </table>
+    <a href="pat.com">Koalas.</a>
+</html>
